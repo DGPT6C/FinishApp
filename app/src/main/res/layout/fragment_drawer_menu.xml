@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2014. CodeBoyTeam
+  -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/horizontal_divider_view"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/menu_img" />
+
+            <include
+                layout="@layout/horizontal_divider_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/menu_item_news"
+                style="@style/MenuItemLayoutStyle" >
+
+                <TextView
+                    style="@style/MenuItemTextViewStyle"
+                    android:text="@string/frame_title_news" />
+            </LinearLayout>
+            
+            <include layout="@layout/horizontal_divider_view"/>
+
+            <LinearLayout
+                android:id="@+id/menu_item_qa"
+                style="@style/MenuItemLayoutStyle" >
+
+                <TextView
+                    style="@style/MenuItemTextViewStyle"
+                    android:text="@string/frame_title_question_ask" />
+            </LinearLayout>
+            
+            <include layout="@layout/horizontal_divider_view"/>
+
+            <LinearLayout
+                android:id="@+id/menu_item_tweet"
+                style="@style/MenuItemLayoutStyle" >
+
+                <TextView
+                    style="@style/MenuItemTextViewStyle"
+                    android:text="@string/frame_title_tweet" />
+            </LinearLayout>
+            
+            <include layout="@layout/horizontal_divider_view"/>
+
+            <LinearLayout
+                android:id="@+id/menu_item_software"
+                style="@style/MenuItemLayoutStyle" >
+
+                <TextView
+                    style="@style/MenuItemTextViewStyle"
+                    android:text="@string/frame_title_software" />
+            </LinearLayout>
+            
+            <include layout="@layout/horizontal_divider_view"/>
+
+            <LinearLayout
+                android:id="@+id/menu_item_active"
+                style="@style/MenuItemLayoutStyle" >
+
+                <TextView
+                    style="@style/MenuItemTextViewStyle"
+                    android:text="@string/frame_title_active" />
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/horizontal_divider_view"/>
+    </LinearLayout>
+
+</ScrollView>

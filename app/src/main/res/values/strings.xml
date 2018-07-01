@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2014. CodeBoyTeam
+  -->
+
+<resources>
+
+    <string name="app_name">开源中国</string>
+
+    <string name="main_menu_software">开源软件</string>
+    <string name="main_menu_search">搜索</string>
+    <string name="main_menu_sweep">扫一扫</string>
+    <string name="main_menu_picshow">显示图片</string>
+    <string name="main_menu_picnoshow">隐藏图片</string>
+    <string name="main_menu_cache">清除缓存</string>
+    <string name="main_menu_email">意见反馈</string>
+    <string name="main_menu_about">关于我们</string>
+    <string name="main_menu_setting">系统设置</string>
+    <string name="main_menu_exit">退出程序</string>
+    <string name="main_menu_login_tips">点击登录</string>
+    
+    <string name="frame_title_news">资讯</string>
+    <string name="frame_title_news_lastest">最新资讯</string>
+    <string name="frame_title_news_blog">最新博客</string>
+    <string name="frame_title_news_recommend">推荐阅读</string>
+    <string name="frame_title_question_ask">问答</string>
+    <string name="frame_title_tweet">动弹</string>
+    <string name="frame_title_active">我的空间</string>
+    <string name="frame_title_software">开源软件</string>
+    
+    <string name="footbar_refresh">刷新</string>
+    <string name="footbar_comment">评论</string>
+    <string name="footbar_share">分享</string>
+    <string name="footbar_favorite">收藏</string>
+    <string name="footbar_more">更多</string>
+    
+    <string name="news_detail_head_title">新闻正文</string>
+    <string name="news_detail_lable_pub">发布于</string>
+    <string name="news_detail_publish_comment">发表评论</string>
+
+    <string name="setting_head_title">系统设置</string>
+    <string name="capture_head_title">扫一扫</string>
+    <string name="msg_camera_framework_bug">抱歉，Android相机出现问题。您可能需要重启设备。</string>
+
+    <string name="settings_category_accountmanager">账号管理</string>
+    <string name="settings_category_function">功能设置</string>
+    <string name="settings_category_cache">缓存设置</string>
+    <string name="settings_category_other">其他</string>
+
+    <string name="settings_title_saveimagepath">图片保存路径</string>
+    <string name="settings_title_httpslogin">HTTPS登录</string>
+    <string name="settings_title_loadimage">加载图片</string>
+    <string name="settings_title_voice">提示声音</string>
+    <string name="settings_title_checkup">启动检查更新</string>
+    <string name="settings_title_cache">清除缓存</string>
+    <string name="settings_title_feedback">意见反馈</string>
+    <string name="settings_title_update">新版本检测</string>
+    <string name="settings_title_about">关于我们</string>
+
+    <string name="settings_summary_saveimagepath">设置图片的保存路径</string>
+    <string name="settings_summary_imagepath">目前路径:%1$s</string>
+    <string name="settings_summary_httpslogin_on">当前以HTTPS登录</string>
+    <string name="settings_summary_httpslogin_off">当前以HTTP登录</string>
+    <string name="settings_summary_loadimage_on">页面加载图片 (默认在WIFI网络下加载图片)</string>
+    <string name="settings_summary_loadimage_off">页面不加载图片 (默认在WIFI网络下加载图片)</string>
+    <string name="settings_summary_voice_on">已开启提示声音</string>
+    <string name="settings_summary_voice_off">已关闭提示声音</string>
+    <string name="settings_summary_checkup">启动程序时检查版本更新</string>
+    <string name="settings_summary_feedback">用户意见反馈</string>
+    <string name="settings_summary_update">检测是否有新版本</string>
+    <string name="settings_summary_about">关于我们、版权信息</string>
+    
+    <string name="settings_cache_dialog_title">输入图片保存路径</string>
+    <string name="settings_saveimage_path_error1">设置路径失败，这是一个文件!</string>
+    <string name="settings_saveimage_path_error2">设置路径失败，创建文件夹失败!</string>
+    <string name="settings_saveimage_path_error3">设置路径失败，该目录不可写!</string>
+</resources>
