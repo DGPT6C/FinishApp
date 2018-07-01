@@ -107,35 +107,6 @@ public class NewsDetailActivity extends BaseDetailActivity  {
 		}
 	}
 	
-	/** 更新评论界面*/
-	private void updateCommentFragment(int newsId) {
-		FragmentManager fm = getSupportFragmentManager();
-		String tag = mAdapter.getTab(1).tag;
-		Fragment fragment = fm.findFragmentByTag(tag);
-		if(fragment != null && fragment instanceof UpdateDatasEvent) {
-			UpdateDatasEvent event = (UpdateDatasEvent)fragment;
-			event.onNotifyUpdate(newsId);
-		} else {
-			L.d("comment is null");
-		}
-	}
-
-    private void updateMenu() {
-        if(optionsMenu == null) {
-            return;
-        }
-        final MenuItem favoriteItem = optionsMenu.findItem(FAVORITE_ITEM_ID);
-        //收藏状态
-        if(mNews != null && favoriteItem != null) {
-            if (mNews.getFavorite() == 1) {
-                favoriteItem.setIcon(R.drawable.ic_menu_favorite_y);
-            } else {
-                favoriteItem.setIcon(R.drawable.ic_menu_favorite_n);
-            }
-        }
-    }
-
-	
 	/**
 	 * 加载资讯数据
 	 * @param isRefresh 是否刷新，否则加载本地缓存
@@ -178,7 +149,6 @@ public class NewsDetailActivity extends BaseDetailActivity  {
 
 					//更新内容界面
 					updateBodyFragment(newsDetail);
-                    updateMenu();
 				} else if (msg.what == 0) {
 					UIHelper.ToastMessage(context, R.string.msg_load_is_null);
 				} else if (msg.what == -1 && msg.obj != null) {
