@@ -13,11 +13,6 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.ViewConfiguration;
 
-/**
- * 类名 BaseActionBarActivity.java</br>
- * 
- * 说明 ActionBar的基类
- */
 public class BaseActionBarActivity extends ActionBarActivity 
 	implements ActivityHelperInterface{
 

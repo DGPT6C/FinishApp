@@ -10,12 +10,6 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.widget.FrameLayout;
 
-/**
- * 类名 SettingActivity.java</br>
- * 
- * 说明 设置界面
- */
-
 public class SettingActivity extends BaseActionBarActivity {
 	
 	@Override

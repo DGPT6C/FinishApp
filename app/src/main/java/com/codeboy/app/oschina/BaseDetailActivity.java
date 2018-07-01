@@ -17,11 +17,6 @@ import android.widget.Button;
 import com.codeboy.app.oschina.adapter.SimpleFragmentPagerAdapter;
 import com.codeboy.app.oschina.adapter.TabInfo;
 
-/**
- * 类名 BaseDetailActivity.java</br>
- * 
- * 说明 详细信息的基类
- */
 public abstract class BaseDetailActivity extends BaseActionBarActivity 
 	implements OnPageChangeListener {
 

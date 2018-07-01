@@ -10,11 +10,6 @@ import com.umeng.analytics.MobclickAgent;
 import android.app.Activity;
 import android.os.Bundle;
 
-/**
- * 类名 BaseActivity.java</br>
- * 
- * 说明 类的描述
- */
 public class BaseActivity extends Activity implements ActivityHelperInterface, HandleActivityForResult{
 
 	ActivityHelper mHelper = new ActivityHelper(this);

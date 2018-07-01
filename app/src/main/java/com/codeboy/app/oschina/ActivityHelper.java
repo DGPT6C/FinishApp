@@ -7,11 +7,6 @@ package com.codeboy.app.oschina;
 import android.app.Activity;
 import android.os.Bundle;
 
-/**
- * 类名 ActivityHelper.java</br>
- * 
- * 说明 类的描述
- */
 public class ActivityHelper implements ActivityHelperInterface{
 	
 	Activity mActivity;
