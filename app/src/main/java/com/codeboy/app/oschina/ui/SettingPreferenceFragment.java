@@ -28,16 +28,6 @@ import com.umeng.update.UmengUpdateListener;
 import com.umeng.update.UpdateResponse;
 import com.umeng.update.UpdateStatus;
 
-/**
- * 类名 SettingPreferenceFragment.java</br>
- * 创建日期 2014年5月10日</br>
- * @author LeonLee (http://my.oschina.net/lendylongli)</br>
- * Email lendylongli@gmail.com</br>
- * 更新时间 2014年5月10日 下午12:36:56</br>
- * 最后更新者 LeonLee</br>
- * 
- * 说明 系统设置
- */
 public class SettingPreferenceFragment extends PreferenceFragment{
 
 	static final int LOGIN_REQUEST_CODE = 111;

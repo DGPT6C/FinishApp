@@ -19,16 +19,7 @@ import com.codeboy.app.oschina.R;
 import com.codeboy.app.oschina.modul.UpdateDatasEvent;
 
 
-/**
- * 类名 BaseDetailBodyFragment.java</br>
- * 创建日期 2014年5月2日</br>
- * @author LeonLee (http://my.oschina.net/lendylongli)</br>
- * Email lendylongli@gmail.com</br>
- * 更新时间 2014年5月2日 下午12:26:14</br>
- * 最后更新者 LeonLee</br>
- * 
- * 说明 详细界面的基类
- */
+
 public abstract class BaseDetailBodyFragment extends BaseFragment implements UpdateDatasEvent {
 	
 	protected OSChinaApplication mApplication;

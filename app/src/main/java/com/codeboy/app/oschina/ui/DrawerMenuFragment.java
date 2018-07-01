@@ -26,16 +26,7 @@ import com.codeboy.app.oschina.OSChinaApplication;
 import com.codeboy.app.oschina.R;
 import com.codeboy.app.oschina.modul.DrawerMenuCallBack;
 
-/**
- * 类名 DrawerMenuFragment.java</br>
- * 创建日期 2014年4月27日</br>
- * @author LeonLee (http://my.oschina.net/lendylongli)</br>
- * Email lendylongli@gmail.com</br>
- * 更新时间 2014年4月27日 下午1:09:08</br>
- * 最后更新者 LeonLee</br>
- * 
- * 说明 菜单界面
- */
+
 public class DrawerMenuFragment extends BaseFragment implements OnClickListener{
 	
 	public static DrawerMenuFragment newInstance() {

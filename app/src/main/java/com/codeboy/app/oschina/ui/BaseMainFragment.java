@@ -17,16 +17,7 @@ import com.codeboy.app.oschina.BaseFragment;
 import com.codeboy.app.oschina.R;
 import com.codeboy.app.oschina.adapter.TabsFragmentPagerAdapter;
 
-/**
- * 类名 BaseMainFragment.java</br>
- * 创建日期 2014年4月27日</br>
- * @author LeonLee (http://my.oschina.net/lendylongli)</br>
- * Email lendylongli@gmail.com</br>
- * 更新时间 2014年4月27日 下午4:29:16</br>
- * 最后更新者 LeonLee</br>
- * 
- * 说明 各类主界面的基类
- */
+
 public abstract class BaseMainFragment extends BaseFragment{
 
 	protected PagerSlidingTabStrip mTabStrip;

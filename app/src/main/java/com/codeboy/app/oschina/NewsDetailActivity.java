@@ -29,16 +29,6 @@ import com.codeboy.app.oschina.core.Contanst;
 import com.codeboy.app.oschina.modul.UpdateDatasEvent;
 import com.codeboy.app.oschina.ui.NewsDetailBodyFragment;
 
-/**
- * 类名 NewsDetailActivity.java</br>
- * 创建日期 2014年4月28日</br>
- * @author LeonLee (http://my.oschina.net/lendylongli)</br>
- * Email lendylongli@gmail.com</br>
- * 更新时间 2014年4月28日 下午11:49:49</br>
- * 最后更新者 LeonLee</br>
- * 
- * 说明 资讯详情界面
- */
 public class NewsDetailActivity extends BaseDetailActivity  {
 
     private final static int SHARE_ITEM_ID = 100;

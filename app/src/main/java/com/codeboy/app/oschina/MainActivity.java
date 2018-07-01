@@ -30,17 +30,6 @@ import com.codeboy.app.oschina.ui.DrawerMenuFragment;
 import com.codeboy.app.oschina.ui.NewsMainFragment;
 import com.umeng.update.UmengUpdateAgent;
 
-
-/**
- * 类名 MainActivity.java</br>
- * 创建日期 2014年4月26日</br>
- * @author LeonLee (http://my.oschina.net/lendylongli)</br>
- * Email lendylongli@gmail.com</br>
- * 更新时间 2014年4月26日 下午12:15:10</br>
- * 最后更新者 LeonLee</br>
- * 
- * 说明 主界面 
- */
 public class MainActivity extends BaseActionBarActivity implements DrawerMenuCallBack{
     
 	static final String DRAWER_MENU_TAG = "drawer_menu";

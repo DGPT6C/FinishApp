@@ -15,16 +15,6 @@ import android.os.Bundle;
 import com.codeboy.app.library.util.L;
 import com.codeboy.app.oschina.core.Contanst;
 
-/**
- * 类名 NewsDetailBodyFragment.java</br>
- * 创建日期 2014年4月29日</br>
- * @author LeonLee (http://my.oschina.net/lendylongli)</br>
- * Email lendylongli@gmail.com</br>
- * 更新时间 2014年4月29日 下午10:40:44</br>
- * 最后更新者 LeonLee</br>
- * 
- * 说明 资讯详情界面
- */
 public class NewsDetailBodyFragment extends BaseDetailBodyFragment {
 	
 	public static NewsDetailBodyFragment newInstance(News news) {

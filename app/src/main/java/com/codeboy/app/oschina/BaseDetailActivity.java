@@ -19,11 +19,6 @@ import com.codeboy.app.oschina.adapter.TabInfo;
 
 /**
  * 类名 BaseDetailActivity.java</br>
- * 创建日期 2014年5月2日</br>
- * @author LeonLee (http://my.oschina.net/lendylongli)</br>
- * Email lendylongli@gmail.com</br>
- * 更新时间 2014年5月2日 上午11:39:41</br>
- * 最后更新者 LeonLee</br>
  * 
  * 说明 详细信息的基类
  */

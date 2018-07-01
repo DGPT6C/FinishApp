@@ -17,16 +17,7 @@ import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.widget.TabHost;
 
-/**
- * 类名 TabsFragmentPagerAdapter.java</br>
- * 创建日期 2014年4月24日</br>
- * @author LeonLee (http://my.oschina.net/lendylongli)</br>
- * Email lendylongli@gmail.com</br>
- * 更新时间 2014年4月24日 下午1:51:18</br>
- * 最后更新者 LeonLee</br>
- * 
- * 说明 ViewPager + Tabs
- */
+ //说明 ViewPager + Tabs
 public class TabsFragmentPagerAdapter extends FragmentPagerAdapter 
 	implements ViewPager.OnPageChangeListener {
 	

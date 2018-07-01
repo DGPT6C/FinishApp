@@ -18,16 +18,6 @@ import net.oschina.app.bean.BlogList;
 import net.oschina.app.common.UIHelper;
 import net.oschina.app.core.AppException;
 
-/**
- * 类名 NewsRecommonFragment.java</br>
- * 创建日期 2014年4月24日</br>
- * @author LeonLee (http://my.oschina.net/lendylongli)</br>
- * Email lendylongli@gmail.com</br>
- * 更新时间 2014年4月24日 下午1:34:30</br>
- * 最后更新者 LeonLee</br>
- * 
- * 说明 推荐阅读
- */
 public class NewsRecommonFragment extends BaseSwipeRefreshFragment<Blog, BlogList> {
 
 	@Override
